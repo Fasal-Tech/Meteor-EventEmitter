@@ -1,8 +1,8 @@
 Package.describe({
-  name: "raix:eventemitter",
+  name: "shivangkar:eventemitter",
   version: '1.0.0',
   summary: "A server and client event package.",
-  git: "https://github.com/raix/Meteor-EventEmitter.git"
+  git: "https://github.com/shivang007/Meteor-EventEmitter.git"
 });
 
 Package.onUse(function (api) {
@@ -18,7 +18,7 @@ Package.onUse(function (api) {
 
 
 Package.onTest(function (api) {
-  api.use(['raix:eventemitter']);
+  api.use(['shivangkar:eventemitter']);
   api.use('test-helpers', ['server', 'client']);
   api.use('tinytest');
 
